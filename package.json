@@ -1,0 +1,17 @@
+{
+  "name": "mqtttrial",
+  "version": "1.0.0",
+  "description": "trial project for mqtt protocol nodejs modules",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node broker.js"
+  },
+  "author": "Neha Tawar",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8"
+  }
+}
